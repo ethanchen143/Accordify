@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users",
+                "opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11",
+                "/opt/homebrew/lib/python3.11/site-packages/pybind11/include",
+                "${workspaceFolder}/**"
+
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
